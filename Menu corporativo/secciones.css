@@ -1,0 +1,90 @@
+@font-face {
+		font-family: fira;
+		src:url(fonts/FiraSans-Regular.ttf);
+}
+h1, h2, h4, h5{
+	text-transform: uppercase;
+	color: blue;
+	font-family: fira;
+	letter-spacing: 0.5px;
+}
+h2{
+	font-size: 28px;
+}
+h3{
+	color: black;
+	font-family: Arial;
+	line-height: 1.5;
+	padding-top: 10px;
+	font-size: 15px;
+	font-weight: normal;
+}
+h4{
+	margin-top: 15px;
+	font-size: 16px;
+}
+h5{
+	font-family: robo;
+	line-height: 1.5;
+	font-weight: normal;
+	padding: 10px 0;
+	font-size: 12px;
+}
+p{
+	color: gray;
+	margin: auto;
+	font-family: robo;
+	font-size: 12px;
+}
+.wap{
+	width: 90%;
+	margin: auto;
+}
+.bienvenidos{
+	margin-top: 50px;
+	text-align: center;
+}
+.contenedor-columnas{
+	width: 100%;
+	margin: auto;
+	margin-bottom: 50px;
+}
+.columnasx3{
+	width: 33.33%;
+	float: left;
+	padding: 15px 15px;
+	box-sizing: border-box;
+	margin: auto;
+}
+.columnasx3 img{
+	width: 100%;
+}
+.banner-1{
+	width: 100%;
+	background: cyan;
+	clear: both;
+	padding-top: 30px;
+	padding-left: 50px;
+	padding-right:50px;
+	padding-bottom: 30px;
+	text-align: center;
+	box-sizing: border-box;
+	transition: 0.3s;
+}
+.banner-1:hover{
+	background: gray;
+	transition: 0.3s;
+}
+.banner-1 h3{
+	color: white;
+	font-size: 30px;
+}
+.banner-1 a{
+	color: blue;
+	font-size: 30px;
+	text-decoration: none;
+	margin-left: 20px;
+	font-weight: bold;
+	border-bottom: 2px solid blue;
+
+}
