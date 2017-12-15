@@ -92,3 +92,26 @@ p{
 	float: left;
 	padding-right: 20px;
 }
+.banner-2{
+	background: red; /*url(img/img1.jpg);*/
+	float: left;
+	width: 100%;
+	height: 200px;
+	background-repeat: no-repeat; /* No se repite la imagen*/
+	background-size: cover;/* imagen al 100% de ancho*/
+	background-attachment: fixed;/*posición fija en imagen*/
+	text-align: center;
+}
+.banner-2 h3{
+	background: rgba(0,0,0,.8);
+	color: white;
+	font-size: 15px;
+}
+.banner-2 a{
+	color: white;
+	font-size: 22px;
+	text-decoration: none;
+	margin-left: 20px;
+	font-weight: bold;
+	border-bottom: 2px solid white;
+}
