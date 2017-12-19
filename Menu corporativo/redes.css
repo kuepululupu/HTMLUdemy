@@ -7,6 +7,60 @@
 #facebook a{
 	background: #3b5998;
 	padding: 10px 15px;
-	color: red;
+	color: White;
 	text-decoration: none;
+	width: 45px;
+	transition: all .4s ease;
+}
+#facebook a:hover{
+	background: black;
+	padding: 10px 35px
+}
+#youtube a{
+	background: #ff0000;
+	padding: 10px 15px;
+	color: White;
+	text-decoration: none;
+	width: 45px;
+	transition: all .4s ease;
+}
+#youtube a:hover{
+	background: black;
+	padding: 10px 35px
+}
+#twitter a{
+	background: #55acee;
+	padding: 10px 15px;
+	color: White;
+	text-decoration: none;
+	width: 45px;
+	transition: all .4s ease;
+}
+#twitter a:hover{
+	background: black;
+	padding: 10px 35px
+}
+#whatsapp a{
+	background: #4dc247;
+	padding: 10px 15px;
+	color: White;
+	text-decoration: none;
+	width: 45px;
+	transition: all .4s ease;
+}
+#whatsapp a:hover{
+	background: black;
+	padding: 10px 35px
+}
+#correo a{
+	background: #e95950;
+	padding: 10px 15px;
+	color: White;
+	text-decoration: none;
+	width: 45px;
+	transition: all .4s ease;
+}
+#correo a:hover{
+	background: black;
+	padding: 10px 35px
 }
