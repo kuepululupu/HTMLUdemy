@@ -1,0 +1,46 @@
+.tabla{
+	width: 100%;
+	margin: auto;
+	text-align: center;
+	padding-top: 50px;
+}
+.tablax4{
+	float: left;
+	width: 25%;
+	margin-top: 20px;
+}
+.caja-precio{
+	border: 1px solid blue;
+	background: black;
+}
+.icono-precio{
+	color:red;
+	padding-top: 20px;
+	font-size: 3em;
+	padding-bottom: 10px;
+}
+.caja-precio h4{
+	color: white;
+}
+.precio-1{
+	color:red;
+	font-size: 50px;
+	font-weight: bold;
+}
+.dolar{
+	color:red;
+	font-size: 20px;
+	vertical-align: super;
+}
+.mes{
+	color:red;
+	font-size: 12px;
+	text-align: center;
+	color:#999;
+}
+.lista-precios{
+	list-style: none;
+	padding: 20px 0;
+	color: #999;
+	padding-bottom: 50px;
+}
