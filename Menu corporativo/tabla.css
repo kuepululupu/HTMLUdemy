@@ -9,6 +9,11 @@
 	width: 25%;
 	margin-top: 20px;
 }
+.tablaxd{
+	float: left;
+	width: 25%;
+	margin-top: 20px;
+}
 .caja-precio{
 	border: 1px solid blue;
 	background: black;
@@ -26,6 +31,7 @@
 	color:red;
 	font-size: 55px;
 	font-weight: bold;
+	font-family: robo
 }
 .dolar{
 	color:red;
@@ -42,5 +48,32 @@
 	list-style: none;
 	padding: 20px 0;
 	color: #999;
-	padding-bottom: 50px;
+	padding-bottom: 35px;
+	font-family: robo;
+}
+.lista-espacios{
+	padding: 0.25em;
+	font-size: 15px;
+}
+.boton-contratar{
+	margin-bottom: 25px;
+}
+.contratar-a{
+	background: #900;
+	text-decoration: none;
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: bold;
+	padding: 10px 70px;
+	letter-spacing: 1px;
+	width: 90%
+}
+.contratar-a:hover{
+	background: #555;
+	transition: all .4s ease;
+}
+
+@font-face {
+		font-family: robo;
+		src:url(fonts/RobotoCondensed-Regular.ttf);
 }
